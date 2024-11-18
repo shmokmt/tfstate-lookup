@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/fujiwara/tfstate-lookup/tfstate"
+	"github.com/shmokmt/tfstate-lookup/tfstate"
 )
 
 func TestMustFuncMap(t *testing.T) {

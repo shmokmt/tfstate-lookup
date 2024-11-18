@@ -4,13 +4,11 @@ Lookup resource attributes in tfstate.
 
 ## Install
 
-### homebrew
+### Go
 
 ```
-$ brew install fujiwara/tap/tfstate-lookup
+$ go install github.com/shmokmt/tfstate-lookup/cmd/tfstate-lookup@latest
 ```
-
-### [Binary releases](https://github.com/fujiwara/tfstate-lookup/releases)
 
 ## Usage (command)
 
@@ -120,7 +118,7 @@ The output is a JSON object. The keys are the address of the resource, output, o
 
 ## Usage (Go package)
 
-See details in [godoc](https://pkg.go.dev/github.com/fujiwara/tfstate-lookup/tfstate).
+See details in [godoc](https://pkg.go.dev/github.com/shmokmt/tfstate-lookup/tfstate).
 
 ```go
 package main
@@ -129,7 +127,7 @@ import(
     "fmt"
     "os"
 
-    "github.com/fujiwara/tfstate-lookup/tfstate"
+    "github.com/shmokmt/tfstate-lookup/tfstate"
 )
 
 func main() {

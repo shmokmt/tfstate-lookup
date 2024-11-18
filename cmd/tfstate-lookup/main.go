@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/fujiwara/tfstate-lookup/tfstate"
 	"github.com/manifoldco/promptui"
 	"github.com/mattn/go-isatty"
+	"github.com/shmokmt/tfstate-lookup/tfstate"
 	"github.com/simeji/jid"
 )
 
