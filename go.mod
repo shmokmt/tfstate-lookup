@@ -1,4 +1,4 @@
-module github.com/fujiwara/tfstate-lookup
+module github.com/shmokmt/tfstate-lookup
 
 go 1.18
 
