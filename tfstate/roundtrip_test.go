@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/fujiwara/tfstate-lookup/tfstate"
+	"github.com/shmokmt/tfstate-lookup/tfstate"
 )
 
 func TestRoundTrip(t *testing.T) {

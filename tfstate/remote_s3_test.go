@@ -3,7 +3,7 @@ package tfstate_test
 import (
 	"testing"
 
-	"github.com/fujiwara/tfstate-lookup/tfstate"
+	"github.com/shmokmt/tfstate-lookup/tfstate"
 )
 
 var testBuckets = []struct {

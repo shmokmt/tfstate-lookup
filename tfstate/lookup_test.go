@@ -9,8 +9,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/fujiwara/tfstate-lookup/tfstate"
 	"github.com/google/go-cmp/cmp"
+	"github.com/shmokmt/tfstate-lookup/tfstate"
 )
 
 type TestSuite struct {

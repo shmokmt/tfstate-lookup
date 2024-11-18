@@ -6,9 +6,9 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/fujiwara/tfstate-lookup/tfstate"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-jsonnet"
+	"github.com/shmokmt/tfstate-lookup/tfstate"
 )
 
 func TestJsonnetNativeFunc(t *testing.T) {

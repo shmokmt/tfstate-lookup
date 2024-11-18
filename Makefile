@@ -4,4 +4,4 @@ test:
 	go test ./...
 
 install:
-	go install github.com/fujiwara/tfstate-lookup/cmd/tfstate-lookup
+	go install github.com/shmokmt/tfstate-lookup/cmd/tfstate-lookup
